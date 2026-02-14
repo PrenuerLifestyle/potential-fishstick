@@ -1,0 +1,49 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Euclid';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/EuclidCircularB-Regular-WebS.woff2') format('woff2'),
+    url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/EuclidCircularB-Regular-WebS.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Euclid';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/EuclidCircularB-Semibold-WebS.woff2') format('woff2'),
+    url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/EuclidCircularB-Semibold-WebS.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Euclid';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/EuclidCircularB-Bold-WebS.woff2') format('woff2'), url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/EuclidCircularB-Bold-WebS.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/Lato-Regular.woff2') format('woff2'), url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/Lato-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/Lato-Semibold.woff2') format('woff2'), url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/Lato-Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/Lato-Bold.woff2') format('woff2'), url('https://www.potential-fishstick-indol.vercel.app/dotcomplatform/assets/fonts/Lato-Bold.woff') format('woff');
+}

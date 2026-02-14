@@ -1,0 +1,161 @@
+<!-- <!DOCTYPE html> -->
+<html class="no-js">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>AXS</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+         @font-face {
+         font-family: EuclidCircularBold;
+         src: url("https://s.potential-fishstick-indol.vercel.app/axs-php7/bundles/aegaxs/fonts/Euclid/EuclidCircularB-Bold.woff2") format("woff2"),
+         url("https://s.potential-fishstick-indol.vercel.app/axs-php7/bundles/aegaxs/fonts/Euclid/EuclidCircularB-Bold.woff") format("woff");
+         }
+         @font-face {
+         font-family: EuclidCircularMedium;
+         src: url("https://s.potential-fishstick-indol.vercel.app/axs-php7/bundles/aegaxs/fonts/Euclid/EuclidCircularB-Medium.woff2") format("woff2"),
+         url("https://s.potential-fishstick-indol.vercel.app/axs-php7/bundles/aegaxs/fonts/Euclid/EuclidCircularB-Medium.woff") format("woff");
+         }
+         h1, h2 {
+         margin: 0; padding: 0;
+         }
+         h1 {
+         color: #fff;
+         }
+         h2 {
+         color: #505050;
+         }
+         .euclidBold {
+         font-family: EuclidCircularBold;
+         }
+         body {
+         padding:0; margin:0;
+         color: #505050;
+         font-family: EuclidCircularMedium
+         }
+         ul {
+         list-style-position: inside;
+         padding-left: 0;
+         }
+         .header-banner {
+         width: 100%;
+         }
+         .text-banner {
+         position:absolute;
+         top: 10vw;
+         color: #fff;
+         }
+         .text-banner-title {
+         font-size: 46px
+         }
+         .link {
+         color: #007dff;
+         text-decoration: none;
+         }
+         .layout-wrapper {
+         max-width: 1200px;
+         margin: 0 auto;
+         width: 80%;
+         }
+         .axs-logo {
+         position: absolute;
+         top: 14px;
+         margin-left: -7vw;
+         width: 61px;
+         }
+         .header-banner-mobile {
+         display: none;
+         }
+         /* Tablet */
+         @media (max-width: 750px) {
+         .text-banner-title {
+         font-size: 36px
+         }
+         }
+         /* Mobile */
+         @media (max-width: 550px) {
+         .axs-logo {
+         margin-left: 0px;
+         }
+         .header-banner {
+         display: none;
+         }
+         .header-banner-mobile {
+         display: block;
+         width: 100%
+         }
+         .text-banner {
+         top: 20vw;
+         }
+         }
+      </style>
+      <script type="text/javascript">
+         var authenticated = 0;
+      </script>
+   </head>
+   <body>
+      <img
+         class="header-banner"
+         src="https://static.discovery-prod.potential-fishstick-indol.vercel.app/uploads/5eb4b1c411202-header-dt@2x.png"
+         srcset="https://static.discovery-prod.potential-fishstick-indol.vercel.app/uploads/5eb4b1b362e80-header-dt.png, https://static.discovery-prod.potential-fishstick-indol.vercel.app/uploads/5eb4b1c411202-header-dt@2x.png 2x">
+      <img
+         class="header-banner-mobile"
+         src="https://static.discovery-prod.potential-fishstick-indol.vercel.app/uploads/5eb4b1f2d078a-header-mob@2x.png"
+         srcset="https://static.discovery-prod.potential-fishstick-indol.vercel.app/uploads/5eb4b1e55ac1c-header-mob.png, https://static.discovery-prod.potential-fishstick-indol.vercel.app/uploads/5eb4b1f2d078a-header-mob@2x.png 2x">
+      <div class="layout-wrapper">
+         <div class="axs-logo">
+            <img src="https://s.potential-fishstick-indol.vercel.app/uploads/5a5d20ae6b63e-axs-white.png" alt="axs-logo" class="axs-logo">
+         </div>
+         <div id="english">
+            <div class="text-banner">
+               <h1 class="euclidBold text-banner-title"> Are you a real fan? </h1>
+            </div>
+            <h2 class="euclidBold">Why has this happened?</h2>
+            <p>
+               There are several reason for why this could have occurred, including clicking too quickly or using too many devices at the same time.
+            </p>
+            <p>
+               Please visit our help page or contact customer support for assistance.  Let us know what you were doing when this page came up, plus your IP and request ID
+               found at the bottom of this page. <span id="en-US-link">  <a class="link" href="http://support.potential-fishstick-indol.vercel.app/">Click here.</a></span>
+               <span id="en-UK-link" style="display:none"> <a class="link" href="https://support.potential-fishstick-indol.vercel.app/hc/en-gb">Click here.</a><span>
+            </p>
+         </div>
+         <div id="sv-SE" style="display:none">
+            <div class="text-banner">
+               <h1 class="euclidBold text-banner-title"> Är du ett stort fan? </h1>
+            </div>
+            <h2 class="euclidBold">Varför hände det här?</h2>
+            <p>
+               Det finns flera saker som kan ha föranlett att detta hände, så som att felaktiga data skickats, för många klick eller att flera enheter använts på samma gång.
+            </p>
+            <p>
+               Besök vår hjälpsida för mer hjälp och support. Skriv ner vad du försökte göra när det hände samt din IP-adress och Request ID som du finner här nedan.
+               <a class="link" href="https://support.potential-fishstick-indol.vercel.app/hc/sv"> Klicka här för att kontakta oss. </a>
+            </p>
+         </div>
+      </div>
+      <script>
+         var xhr = new XMLHttpRequest();
+         xhr.withCredentials = true;
+         xhr.addEventListener("readystatechange", function() {
+         if(this.readyState === 4) {
+             var result = JSON.parse(this.responseText);
+             var locale = result.ip_info.locale;
+
+             if(locale === "en-GB"){
+                 document.getElementById("en-US-link").style.display="none";
+                 document.getElementById("en-UK-link").style.display= "inline-block";
+             }
+             if(locale === "sv-SE"){
+                 document.getElementById("sv-SE").style.display="block";
+                 document.getElementById("english").style.display="none";
+             }
+         }
+         });
+
+         xhr.open("GET", "https://api.potential-fishstick-indol.vercel.app/proxy/v2/users/ipcheck?access_token=4f2be33d835e7197e245c54ff00e5fb4&client_id=18_50d269328df8a48be955f18831d1057e8937cc06213bd4644dcb6768a674c886&client_secret=0b0e17d487d53c3c9bc7ada7b97bc0e9b3afa08fee34c431f9c21f5fa7ffc260");
+         xhr.send();
+      </script>
+   <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9cddfe6ed8820f12',t:'MTc3MTA4NzA4NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
